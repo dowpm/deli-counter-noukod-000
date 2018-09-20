@@ -1,7 +1,7 @@
 def line(arr)
   str = "The line is currently:"
   puts "The line is currently empty." if arr.empty?
-  arr.each_with_index {|name, index| str << " #{(index+1)}. #{name}"  }
+  arr.each_with_index(1) {|name, index| str << " #{index}. #{name}"  }
   puts str if !arr.empty?
 end
 
