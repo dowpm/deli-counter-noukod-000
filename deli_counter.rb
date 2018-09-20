@@ -16,4 +16,5 @@ def now_serving(arr)
   else
     name = arr.shift
     puts "Currently serving #{name}."
+  end
 end
